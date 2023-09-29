@@ -1,7 +1,4 @@
-.n {
-  font-weight: bold;
-}
-img {
-  width: 35%;
-  height: auto;
+#about {
+  height: 1000px;
+  background-color: gray;
 }

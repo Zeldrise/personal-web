@@ -18,9 +18,14 @@
     <title>Portofolio Web</title>
   </head>
   <body>
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark py-3">
+    <nav
+      class="navbar fixed-top navbar-expand-lg navbar-dark"
+      style="background-color: #161616"
+    >
       <div class="container">
-        <a class="navbar-brand n" href="index.html">FANDI</a>
+        <a class="navbar-brand" href="index.html">
+          <img src="logo.png" alt="" width="50" />
+        </a>
         <button
           class="navbar-toggler"
           type="button"
@@ -38,10 +43,12 @@
         >
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#">About</a>
+              <a class="nav-link active" href="#about">About</a>
             </li>
             <li class="nav-item">
               <a class="nav-link active" href="#">Project</a>
@@ -57,10 +64,18 @@
       </div>
     </nav>
 
-    <div class="container-fluid mt-5">
+    <div class="container-fluid my-5" style="background-color: #d8e9a8">
       <div class="text-center">
-        <img src="pp.jpg" class="rounded-circle img-thumbnail mt-5" />
+        <img
+          src="pp.jpg"
+          class="rounded-circle img-thumbnail mt-5"
+          style="width: 30vw"
+        />
+        <p class="name mt-3" style="font-size: 4vw">
+          <strong>FANDI EKA PRATAMA</strong>
+        </p>
       </div>
     </div>
+    <div id="about"></div>
   </body>
 </html>
