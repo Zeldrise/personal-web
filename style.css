@@ -1,4 +1,29 @@
-#about {
-  height: 1000px;
-  background-color: gray;
+body {
+  background-color: #d8e9a8;
+}
+.bar {
+  width: 100%;
+  background-color: #ddd;
+  border-radius: 2vw;
+}
+.skills {
+  text-align: right;
+  color: white;
+  font-size: 1vw;
+  padding-right: 2rem;
+}
+.html {
+  width: 90%;
+  background: linear-gradient(to right, #1e5128, #4e9f3d);
+  border-radius: 2vw;
+}
+.css {
+  width: 80%;
+  background: linear-gradient(to right, #1e5128, #4e9f3d);
+  border-radius: 2vw;
+}
+.js {
+  width: 65%;
+  background: linear-gradient(to right, #1e5128, #4e9f3d);
+  border-radius: 2vw;
 }

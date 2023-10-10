@@ -14,7 +14,9 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Portofolio Web</title>
   </head>
   <body>
@@ -51,13 +53,13 @@
               <a class="nav-link active" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#">Project</a>
+              <a class="nav-link active" href="#project">Project</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#">Skill</a>
+              <a class="nav-link active" href="#Skill">Skill</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#">Contact</a>
+              <a class="nav-link active" href="#Contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -67,15 +69,59 @@
     <div class="container-fluid my-5" style="background-color: #d8e9a8">
       <div class="text-center">
         <img
-          src="pp.jpg"
+          src="pp2.jpg"
+          data-aos="zoom-in"
           class="rounded-circle img-thumbnail mt-5"
           style="width: 30vw"
         />
-        <p class="name mt-3" style="font-size: 4vw">
-          <strong>FANDI EKA PRATAMA</strong>
-        </p>
+        <p class="m-0 fs-1 fw-bold" data-aos="zoom-in">FANDI EKA PRATAMA</p>
+        <p class="pb-2 m-0 fs-5">i'm a student of smk negeri 12 malang</p>
       </div>
     </div>
-    <div id="about"></div>
+    <div id="about">
+      <div class="container my-5">
+        <p class="fs-2 fw-bold text-center">ABOUT ME</p>
+        <div class="row">
+          <p class="col-sm-6">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis
+            praesentium iure quas libero inventore! Eum, earum corporis debitis
+            nulla eaque, perspiciatis repudiandae neque quibusdam, eveniet
+            minima voluptatem. Laudantium, maiores magnam?
+          </p>
+          <p class="col-sm-6">
+            <strong>NAME : </strong>Fandi Eka Pratama <br />
+            <strong>NAME : </strong>Fandi Eka Pratama <br />
+            <strong>NAME : </strong>Fandi Eka Pratama <br />
+            <strong>NAME : </strong>Fandi Eka Pratama <br />
+            <strong>NAME : </strong>Fandi Eka Pratama <br />
+            <strong>NAME : </strong>Fandi Eka Pratama <br />
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="project"></div>
+    <div id="Skill">
+      <div class="container text-center">
+        <h1>My Skills</h1>
+        <p class="fs-5">Programming Languages & Framework</p>
+        <p class="fw-bold">HTML</p>
+        <div class="bar">
+          <div class="skills html">90%</div>
+        </div>
+        <p>CSS</p>
+        <div class="bar">
+          <div class="skills css">80%</div>
+        </div>
+        <p>JavaScript</p>
+        <div class="bar">
+          <div class="skills js">65%</div>
+        </div>
+      </div>
+    </div>
+    <div id="Contact"></div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
