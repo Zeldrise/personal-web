@@ -139,3 +139,9 @@
   text-decoration: none;
   color: white;
 }
+.testi {
+  width: 30rem;
+  border: 0.06rem solid #1e5128;
+  border-radius: 2vw;
+  box-shadow: 0.8rem 0.8rem 0.8rem rgba(0, 0, 0, 0.404);
+}
