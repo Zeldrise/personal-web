@@ -112,22 +112,37 @@
   padding-right: 2rem;
 }
 .html {
-  width: 90%;
+  width: 95%;
   background: linear-gradient(to right, #1e5128, #4e9f3d);
   border-radius: 2rem;
 }
 .css {
-  width: 80%;
+  width: 90%;
   background: linear-gradient(to right, #1e5128, #4e9f3d);
   border-radius: 2rem;
 }
 .js {
-  width: 70%;
+  width: 85%;
   background: linear-gradient(to right, #1e5128, #4e9f3d);
   border-radius: 2rem;
 }
 .Bootstrap {
   width: 90%;
+  background: linear-gradient(to right, #1e5128, #4e9f3d);
+  border-radius: 2rem;
+}
+.node {
+  width: 80%;
+  background: linear-gradient(to right, #1e5128, #4e9f3d);
+  border-radius: 2rem;
+}
+.react {
+  width: 75%;
+  background: linear-gradient(to right, #1e5128, #4e9f3d);
+  border-radius: 2rem;
+}
+.Express {
+  width: 70%;
   background: linear-gradient(to right, #1e5128, #4e9f3d);
   border-radius: 2rem;
 }
